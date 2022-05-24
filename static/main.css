@@ -20,11 +20,14 @@ button, .nav, .nav a, header label, .post, .col-3 img, .soc-media a {
 	 height: 30%;
 }
  .middle{
-	 margin-left: 15%;
+	 display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 50%;
+	 margin-top: 40px;
+	 margin-bottom: 40px;
  }
- .middle2{
-	 margin-left: 20%;
- }
+
  .black{
 	 background-color: black;
  }
@@ -33,7 +36,6 @@ button, .nav, .nav a, header label, .post, .col-3 img, .soc-media a {
 	 text-align:right;
 	 height:500px;
 	 width:600px;
-	 margin-left: 25%;
  }
  .gmap_canvas{
 	 overflow:hidden;
