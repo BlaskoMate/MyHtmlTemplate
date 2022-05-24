@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Location</title>
+</head>
+<body class="black">
+    <div class="wrapper">
+    <section id="home" class="sec-intro">
+      <header role="banner">
+          <link rel="stylesheet" href="{{url_for('static', filename='main.css')}}">
+        <input id="nav-check" type="checkbox" />
+        <label class="fa menu" for="nav-check"></label>
+        <nav role="navigation" class="menu">
+          <ul class="nav">
+            <li><a href="/">Home</a></li>
+            <li><a href="/news">News</a></li>
+            <li><a href="/gallery">Gallery</a></li>
+            <li><a href="/location">Location</a></li>
+            <li><a href="/video">Video</a></li>
+          </ul>
+        </nav>
+      </header>
+      <h1>Location</h1>
+    </section>
+  </div>
+    <figure>
+  <img class="middle" src="https://thumbs.dreamstime.com/b/gym-24699087.jpg" alt="gym">
+  <figcaption>Budapest, XII. Kerület</figcaption>
+</figure>
+  <div class="mapouter">
+    <div class="gmap_canvas">
+      <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed"
+              frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+      <a href="https://fmovies-online.net">fmovies</a>
+      <br>
+      <a href="https://www.embedgooglemap.net">custom google map embed</a>
+    </div>
+  </div>
+    <footer>
+      <div class="row">
+        <p>&copy; 2022 Farkas András Design</p>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
